@@ -10,6 +10,9 @@
 1. 添加`mysql-connector-java`和 `aliyun-analytic-db-driver`
 2. 使用驱动：`com.mysql.jdbc.AnalyticDbDriver`
 
+# 下载
+[drivers.zip](https://github.com/javaercn/aliyun-analytic-db-driver/files/1218376/drivers.zip)
+
 # jetbrains 系列的数据库客户端使用样例
 ![sample](docs/sample.png)
 
