@@ -2,7 +2,7 @@
 阿里云分析型数据库（AnalyticDB）JDBC 驱动
 ============================
 # 说明
-> 因阿里云数据库不支持别名加星号的语句(例：`SELECT d.* FROM demo d`)，但支持不加别名的语句`SELECT * FROM demo d`，
+> 因阿里云分析型数据库（AnalyticDB）不支持别名加星号的语句(例：`SELECT d.* FROM demo d`)，但支持不加别名的语句`SELECT * FROM demo d`，
 > 导致基于JDBC的数据库客户端如果以含别名的方式就无法打开表，此项目基于mysql-connector-java的5.1.34版本做了一层驱动的包装去掉了别名
 > 使客户端能正常打开表
 
