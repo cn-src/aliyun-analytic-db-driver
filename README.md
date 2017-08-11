@@ -13,7 +13,8 @@
 # 下载
 [drivers.zip](https://github.com/javaercn/aliyun-analytic-db-driver/files/1218376/drivers.zip)
 
-# jetbrains 系列的数据库客户端使用样例
+# 样例
+jetbrains 系列的数据库客户端使用样例
 ![sample](docs/sample.png)
 
 # 其它
