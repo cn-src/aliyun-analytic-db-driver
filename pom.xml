@@ -27,4 +27,23 @@
             <version>5.1.34</version>
         </dependency>
     </dependencies>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/javaercn/aliyun-analytic-db-driver.git</url>
+        <connection>scm:git:ssh://github.com/javaercn/aliyun-analytic-db-driver.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/javaercn/aliyun-analytic-db-driver.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <developers>
+        <developer>
+            <name>zhangpeng</name>
+            <email>java@javaer.cn</email>
+        </developer>
+    </developers>
+
 </project>
