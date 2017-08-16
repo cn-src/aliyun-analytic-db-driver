@@ -18,6 +18,9 @@ public class SqlUtils
      */
     public static String fix(final String sql)
     {
+        if(null == sql || sql.length() <=0){
+            return sql;
+        }
         final Matcher selectMatcher = SELECT_PATTERN.matcher(sql);
         if (selectMatcher.find())
         {
